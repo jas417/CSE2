@@ -17,17 +17,18 @@ public class BurgerKing{
         System.out.println("Burger (B or b)");
         System.out.println("Soda (S or s)");
         System.out.println("Fries (F or f)");
-        if(myScanner.hasNext()){//scan for the options
+        if(myScanner.hasNext()){//scan for the options for general order
             char answer = myScanner.next().charAt(0);
                 switch(answer){//set up the switch statement to give the user further options based on input
                     case 'B':
                     case 'b':
-                    System.out.println("Enter A or a for all the fixins");
+                    System.out.println("How would you like your burger?");
+                    System.out.println("Enter A or a for all the fixins"); //collect 
                     System.out.println("C or c for cheese");
                     System.out.println("N or n for none of the above");
                        if(myScanner.hasNext()){
                         char fix = myScanner.next().charAt(0);
-                            switch(fix){
+                            switch(fix){//switch for burger options
                                 case 'A':
                                 case 'a':
                                 System.out.println("You ordered a burger with all the fixings");
@@ -46,10 +47,10 @@ public class BurgerKing{
                     break;
                     case 'S':
                     case 's':
-                    System.out.println("Do you want Pepsi (P or p), Sprite(S or s), or Mountain Dew(M or m");
+                    System.out.println("Do you want Pepsi (P or p), Sprite(S or s), or Mountain Dew(M or m");//collect soda data
                          if(myScanner.hasNext()){
                         char soda = myScanner.next().charAt(0);
-                            switch(soda){
+                            switch(soda){//switch for soda options
                                 case 'P':
                                 case 'p':
                                 System.out.println("You ordered a Pepsi");
@@ -69,7 +70,7 @@ public class BurgerKing{
                     case'F':
                     case'f':
                     System.out.println("Do you want a large or small order of fries? (L, l, S, s)");
-                     if(myScanner.hasNext()){
+                     if(myScanner.hasNext()){//switch for fry options
                         char fry = myScanner.next().charAt(0);
                             switch(fry){
                                 case 'L':
