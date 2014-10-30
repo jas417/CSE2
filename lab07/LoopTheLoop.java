@@ -17,20 +17,20 @@ public class LoopTheLoop{
         String f="*";
         
         System.out.println("Enter y or Y if you want to go agian");  
-        if(myScanner.hasNextLine(){
-        String Start = myScanner.nextLine();
-        while(Start.equals("Y")||Start.equals("y")){
-        System.out.println("Enter y or Y if you want to go agian");  
         if(myScanner.hasNextLine()){
-        System.out.println("Please enter an interger between 1 and 15");
-        if(myScanner.hasNextInt()){
-           int nStars =  myScanner.nextInt();
-                if(nStars>=1&&nStars<=15){
+            String Start = myScanner.nextLine();
+            while(Start.equals("Y")||Start.equals("y")){
+                System.out.println("Enter y or Y if you want to go agian");  
+                if(myScanner.hasNextLine()){
+                    
+                    System.out.println("Please enter an interger between 1 and 15");
+                    if(myScanner.hasNextInt()){
+                        int nStars =  myScanner.nextInt();
+                    if(nStars>=1&&nStars<=15){
                     while(n<nStars){
-                    n++;
-                    System.out.print(f);
-             } 
-        
+                        n++;
+                        System.out.print(f);
+                    } 
                     int g=0;
                     while(g<nStars){
                     g++;
@@ -54,9 +54,10 @@ public class LoopTheLoop{
         }
         }
         else{
-            System.out.println("invalid entry");
+            System.out.println("invalid entry2");
             return;
         }
+        Start = myScanner.nextLine();
         }
       
     
