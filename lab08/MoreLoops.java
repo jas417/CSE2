@@ -5,7 +5,7 @@
 import java.util.Scanner;
 public class MoreLoops{
 	public static void main(String[] arg){
-    Scanner scan=new Scanner(System.in);
+	Scanner scan=new Scanner(System.in);
     int n=0;
 
   /*  System.out.print("Enter an int- ");
