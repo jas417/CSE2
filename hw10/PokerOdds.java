@@ -3,7 +3,7 @@
 //HW10
 //17 November 2014
 
-
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 public class PokerOdds{
