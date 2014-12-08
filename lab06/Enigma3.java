@@ -29,6 +29,7 @@ public class Enigma3{
       n=45;
       out+=n+k;
     }
+    System.out.println(n+"    "+k);
     switch(n+k){
       case 114: 
         n-=11;
@@ -45,6 +46,7 @@ public class Enigma3{
         n-=3;
         k-=5;
     }
+    System.out.println(n+"   "+k);
      out+=1/n + 1/k;   
     System.out.println(out);
   }
@@ -52,7 +54,7 @@ public class Enigma3{
 
 /*
  * Error report:
- * 
+ * Enigma 3 runs until line 48
  * 
  * 
  * 
